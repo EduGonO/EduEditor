@@ -8,12 +8,12 @@ let package = Package(
         .macOS(.v12)
     ],
     products: [
-        .library(name: "EduEditor", targets: ["EduEditor"])
+        .library(name: "EduEditorSwift", targets: ["EduEditorSwift"])
     ],
     targets: [
         .target(
-            name: "EduEditor",
-            path: "Sources/EduEditor",
+            name: "EduEditorSwift",
+            path: "Sources/EduEditorSwift",
             resources: [
                 .process("../../Resources/EditorBundle")
             ]
