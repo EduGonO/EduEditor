@@ -7,11 +7,11 @@ let package = Package(
     .iOS(.v15), .macOS(.v12)
   ],
   products: [
-    .library(name: "EduEditor", targets: ["EduEditorSwift"]),
+    .library(name: "EduEditor", targets: ["EduEditor"]),
   ],
   targets: [
     .target(
-      name: "EduEditorSwift",
+      name: "EduEditor",
       resources: [
         .process("Resources/EditorBundle")
       ]
