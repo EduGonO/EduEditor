@@ -7,7 +7,7 @@ let package = Package(
     .iOS(.v15), .macOS(.v12)
   ],
   products: [
-    .library(name: "EduEditor", targets: ["EduEditor"]),
+    .library(name: "EduEditorSwift", targets: ["EduEditorSwift"]),
   ],
   targets: [
     .target(
