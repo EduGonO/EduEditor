@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "EduEditor",
+    name: "EduEditorSwift",
     platforms: [
         .iOS(.v15),
         .macOS(.v12)
